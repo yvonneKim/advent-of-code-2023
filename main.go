@@ -1,12 +1,12 @@
 package main
 
 import (
+	"advent-of-code-2023/internal/util"
 	"fmt"
-
-	"github.com/yvonneKim/advent-of-code-2023/morestrings"
 )
 
 func main() {
 	fmt.Println("hiello world")
-	fmt.Println(morestrings.ReverseRunes("dlrow olleh"))
+	input_data, _ := util.FetchInput()
+	fmt.Printf("%v\n", input_data)
 }
